@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+ margin: 0px;
+ background: #000;
+ color: #fff;
+ padding: 0;
+}
+
+body{
+background: rgb(45, 0, 170);
+padding-bottom: 20px;
+}
+
+p{
+    text-align: center;
+    background: #ccc;
+    color: #000;
+}
+
+form{
+    background: rgb(179, 10, 164);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 1px solid #000;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 10px 5px 0px rgb(80, 25, 209);
+
+}
+
+input{
+    /*width: 80%;*/
+    padding: 10px;
+    border-radius: 15px;
+    border: #ccc;
+}
+    
