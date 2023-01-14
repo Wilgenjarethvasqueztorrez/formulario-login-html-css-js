@@ -39,4 +39,29 @@ input{
     border-radius: 15px;
     border: #ccc;
 }
+
+#botones{
+margin-top: 10px;
+}
+
+#botones button{
+    padding: 8px;
+    border-radius: 10px;
+    border: 0;
+}
+
+#botones button:hover{
+    background: gray;
+    color: #fff;
+    cursor: pointer;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid gray;
+}
     
